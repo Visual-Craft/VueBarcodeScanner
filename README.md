@@ -5,4 +5,4 @@ Usage:
 
 <scanner @setScreen="setScreen($event)" />
 
-Where $event it is screen name: $emait('setScreen', { name: 'screen_name_here' })
+Where $event it is screen name: $emit('setScreen', { name: 'screen_name_here' })
